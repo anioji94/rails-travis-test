@@ -11,5 +11,9 @@ describe 'test' do
 		expect(1 - 1).to eq 0
 	end
 
+	it 'should fail if wrong' do
+		expect('travis').to eq 'good'
+	end
+
 	# switching!
 end
