@@ -6,4 +6,10 @@ describe 'test' do
 	it 'should also work' do
 		expect(1 + 2).not_to eq 2
 	end
+
+	it 'should work too' do
+		expect(1 - 1).to eq 0
+	end
+
+	# switching!
 end
