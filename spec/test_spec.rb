@@ -12,7 +12,7 @@ describe 'test' do
 	end
 
 	it 'should fail if wrong' do
-		expect('travis').to eq 'good'
+		expect('travis').not_to eq 'good'
 	end
 
 	# switching!
